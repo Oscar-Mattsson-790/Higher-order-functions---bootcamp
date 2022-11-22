@@ -99,6 +99,8 @@
 
 // console.log(filteredPersons);
 
+// -------------------------------------------------------------------------------------
+
 // Övning 1
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -198,7 +200,6 @@ const countryName = travelGuide.map((country) => country.name);
 console.log("Skriver ut alla länder: ", countryName.join(", "));
 
 const countryContinet = travelGuide.map((continet) => continet.continet);
-console.log(countryContinet);
 console.log("Skriver ut alla kontineter: ", countryContinet.join(", "));
 
 let europeCountries = travelGuide
